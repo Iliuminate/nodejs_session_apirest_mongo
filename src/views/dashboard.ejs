@@ -1,0 +1,14 @@
+<%- layout('layouts/main.ejs') %>
+
+<h3>Dashboard</h3>
+
+<div class="card card-body">
+    
+        <h3><%= user.email %></h3>
+        <p>
+            <%= user.password %>
+        </p>
+        <p>
+            <%= user._id %>
+        </p>
+</div>
